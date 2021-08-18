@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/student_lab/static/css/main.a617e044.chunk.css",
-    "main.js": "/student_lab/static/js/main.2fcc4c80.chunk.js",
-    "main.js.map": "/student_lab/static/js/main.2fcc4c80.chunk.js.map",
-    "runtime-main.js": "/student_lab/static/js/runtime-main.9c16cebd.js",
-    "runtime-main.js.map": "/student_lab/static/js/runtime-main.9c16cebd.js.map",
-    "static/js/2.55e33246.chunk.js": "/student_lab/static/js/2.55e33246.chunk.js",
-    "static/js/2.55e33246.chunk.js.map": "/student_lab/static/js/2.55e33246.chunk.js.map",
-    "static/js/3.37a1b610.chunk.js": "/student_lab/static/js/3.37a1b610.chunk.js",
-    "static/js/3.37a1b610.chunk.js.map": "/student_lab/static/js/3.37a1b610.chunk.js.map",
+    "main.js": "/student_lab/static/js/main.ecda5927.chunk.js",
+    "main.js.map": "/student_lab/static/js/main.ecda5927.chunk.js.map",
+    "runtime-main.js": "/student_lab/static/js/runtime-main.ee224671.js",
+    "runtime-main.js.map": "/student_lab/static/js/runtime-main.ee224671.js.map",
+    "static/js/2.b6fa635b.chunk.js": "/student_lab/static/js/2.b6fa635b.chunk.js",
+    "static/js/2.b6fa635b.chunk.js.map": "/student_lab/static/js/2.b6fa635b.chunk.js.map",
+    "static/js/3.a904fb3f.chunk.js": "/student_lab/static/js/3.a904fb3f.chunk.js",
+    "static/js/3.a904fb3f.chunk.js.map": "/student_lab/static/js/3.a904fb3f.chunk.js.map",
     "index.html": "/student_lab/index.html",
     "static/css/main.a617e044.chunk.css.map": "/student_lab/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.55e33246.chunk.js.LICENSE.txt": "/student_lab/static/js/2.55e33246.chunk.js.LICENSE.txt"
+    "static/js/2.b6fa635b.chunk.js.LICENSE.txt": "/student_lab/static/js/2.b6fa635b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c16cebd.js",
-    "static/js/2.55e33246.chunk.js",
+    "static/js/runtime-main.ee224671.js",
+    "static/js/2.b6fa635b.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.2fcc4c80.chunk.js"
+    "static/js/main.ecda5927.chunk.js"
   ]
 }
