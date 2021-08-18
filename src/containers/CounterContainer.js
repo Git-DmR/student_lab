@@ -32,14 +32,13 @@ class CounterContainer extends React.Component {
   }
 
   render() {
-    return (
-      <Counter
-        handleIncrement={this.handleIncrement}
-        handleReset={this.handleReset}
-        handleDecrement={this.handleDecrement}
-        currentValue={this.state.currentValue}
-      />
-    );
+    const props = {
+      handleIncrement: this.handleIncrement,
+      handleReset: this.handleReset,
+      handleDecrement: this.handleDecrement,
+      currentValue: this.state.currentValue,
+    };
+    return <Counter {...props} />;
   }
 }
 
