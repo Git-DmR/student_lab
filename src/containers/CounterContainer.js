@@ -7,6 +7,7 @@ class CounterContainer extends React.Component {
     super(props);
     this.state = {
       currentValue: 0,
+      id: this.props.id,
     };
     this.handleIncrement = this.handleIncrement.bind(this);
     this.handleReset = this.handleReset.bind(this);
@@ -17,18 +18,29 @@ class CounterContainer extends React.Component {
     this.setState((state) => ({
       currentValue: this.state.currentValue + 1,
     }));
+    console.log("Counter #" + this.state.id + " has been incremented.");
   }
 
   handleReset() {
     this.setState((state) => ({
       currentValue: 0,
     }));
+    console.log("#" + this.state.id + " Counter has been reset.");
   }
 
   handleDecrement() {
     this.setState((state) => ({
       currentValue: this.state.currentValue - 1,
     }));
+    console.log("#" + this.state.id + " Counter has been decremented.");
+  }
+
+  componentDidMount() {
+    console.log("#" + this.state.id + " Counter did mount.");
+  }
+
+  componentWillUnmount() {
+    console.log("#" + this.state.id + " Counter will unmount.");
   }
 
   render() {

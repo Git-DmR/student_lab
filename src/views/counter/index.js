@@ -4,7 +4,9 @@ import Button from "@material-ui/core/Button";
 const Counter = (props) => (
   <div>
     <span>{"Counter_Id: " + props.id}</span>
-    <h2>{"Current value :  " + props.currentValue}</h2>
+    <h2>
+      Current value : <span>{props.currentValue}</span>
+    </h2>
     <Button variant="contained" color="primary" onClick={props.handleIncrement}>
       Increment
     </Button>

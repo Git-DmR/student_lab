@@ -25,7 +25,7 @@ class CounterManagerContainer extends React.Component {
 
   resetCounterManager() {
     this.setState((state) => ({
-      totalCounters: this.state.totalCounters ** 0,
+      totalCounters: 1,
       currentId: 1,
       maxId: 1,
     }));
@@ -38,6 +38,10 @@ class CounterManagerContainer extends React.Component {
         currentId: this.state.currentId + 1,
       }));
     }
+  }
+
+  componentDidMount() {
+    console.log("CounterManager ready to go.");
   }
 
   render() {
