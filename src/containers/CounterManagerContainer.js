@@ -31,7 +31,7 @@ class CounterManagerContainer extends React.Component {
         currentId: 1,
         maxId: 1,
       }));
-      setTimeout(this.addCounter, 0);
+      setTimeout(this.addCounter, 200);
     }
   }
 
