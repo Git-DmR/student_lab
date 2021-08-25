@@ -24,11 +24,15 @@ class CounterManagerContainer extends React.Component {
   }
 
   resetCounterManager() {
-    this.setState((state) => ({
-      totalCounters: 1,
-      currentId: 1,
-      maxId: 1,
-    }));
+    console.log("Hard reset!!");
+    if (this.state.totalCounters) {
+      this.setState((state) => ({
+        totalCounters: 0,
+        currentId: 1,
+        maxId: 1,
+      }));
+      setTimeout(this.addCounter, 0);
+    }
   }
 
   removeCounter() {

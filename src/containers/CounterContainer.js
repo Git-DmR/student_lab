@@ -6,8 +6,8 @@ class CounterContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentValue: 0,
       id: this.props.id,
+      currentValue: 0,
     };
     this.handleIncrement = this.handleIncrement.bind(this);
     this.handleReset = this.handleReset.bind(this);
