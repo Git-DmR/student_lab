@@ -32,11 +32,13 @@ class CounterContainer extends React.Component {
   }
 
   render() {
+    console.log("CounterContainer:", this.props);
     const props = {
       handleIncrement: this.handleIncrement,
       handleReset: this.handleReset,
       handleDecrement: this.handleDecrement,
       currentValue: this.state.currentValue,
+      id: this.props.id,
     };
     return <Counter {...props} />;
   }
@@ -47,6 +49,7 @@ CounterContainer.propTypes = {
   handleReset: PropTypes.func,
   handleDecrement: PropTypes.func,
   currentValue: PropTypes.number,
+  id: PropTypes.number,
 };
 
 export default CounterContainer;

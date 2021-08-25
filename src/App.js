@@ -1,10 +1,10 @@
-import CounterContainer from "../src/containers/CounterContainer";
 import "./App.css";
+import CounterManagerContainer from "./containers/CounterManagerContainer";
 
 function App() {
   return (
     <div className="App">
-      <CounterContainer />
+      <CounterManagerContainer />
     </div>
   );
 }
