@@ -64,6 +64,11 @@ class CounterManagerContainer extends React.Component {
   }
 }
 
-CounterManagerContainer.propTypes = {};
+CounterManagerContainer.propTypes = {
+  addCounter: PropTypes.func,
+  removeCounter: PropTypes.func,
+  resetCounterManager: PropTypes.func,
+  totalCounters: PropTypes.func,
+};
 
 export default CounterManagerContainer;

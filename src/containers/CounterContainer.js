@@ -32,7 +32,6 @@ class CounterContainer extends React.Component {
   }
 
   render() {
-    console.log("CounterContainer:", this.props);
     const props = {
       handleIncrement: this.handleIncrement,
       handleReset: this.handleReset,
